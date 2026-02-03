@@ -38,7 +38,6 @@ jobs:
           ignore_status_codes: '403,429,500,502,503,504'
       
           # Silence noise
-          validate: false
           check_internal_hash: false
           check_external_hash: false
           ignore_missing_alt: true
