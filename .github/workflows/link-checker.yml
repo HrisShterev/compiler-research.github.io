@@ -29,24 +29,21 @@ jobs:
         uses: athackst/htmlproofer-action@main
         with:
           directory: '_site'
-          check_images: false
-          check_scripts: false
-          check_opengraph: false
-          # Status codes to ignore
-          ignore_status_codes: '403,429,404,500,502,503,504'
+          # Remove 404 from this list so you can see broken links again
+          ignore_status_codes: '403,429,500,502,503,504'
           
-          # Security overrides to stop the HTTPS/Protocol warnings
           enforce_https: false 
           
-          # Ignore HTTP, protocol-relative, and specific problematic fragments
-          ignore_urls: "/^http:\\/\\//, /^\\/\\//, /#:~:text=/"
-  
-          # Swap URLs (if needed for the internal link errors you saw)
-          # This helps if links are missing the baseurl
-          swap_urls: "^/compiler-research.github.io:"
-  
-          # Silence noise
-          validate: false
+          # Use this list to silence specific sites that you KNOW are broken 
+          # but don't want to fix (like old GSoC PDFs or archived research)
+          ignore_urls: >-
+            ^http://,
+            ^//netdna.bootstrapcdn.com,
+            #:~:text=,
+            https://summerofcode.withgoogle.com/media,
+            https://rawgit.com
+          
+          # Disable these to reduce internal failure noise
           check_internal_hash: false
           check_external_hash: false
           ignore_missing_alt: true
