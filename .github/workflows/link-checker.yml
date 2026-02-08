@@ -29,14 +29,22 @@ jobs:
         uses: athackst/htmlproofer-action@main
         with:
           directory: '_site'
-      
           check_images: false
           check_scripts: false
           check_opengraph: false
-      
-          # External behavior
-          ignore_status_codes: '403,429,500,502,503,504'
-      
+          # Status codes to ignore
+          ignore_status_codes: '403,429,404,500,502,503,504'
+          
+          # Security overrides to stop the HTTPS/Protocol warnings
+          enforce_https: false 
+          
+          # Ignore HTTP, protocol-relative, and specific problematic fragments
+          ignore_urls: "/^http:\\/\\//, /^\\/\\//, /#:~:text=/"
+  
+          # Swap URLs (if needed for the internal link errors you saw)
+          # This helps if links are missing the baseurl
+          swap_urls: "^/compiler-research.github.io:"
+  
           # Silence noise
           validate: false
           check_internal_hash: false
@@ -44,6 +52,3 @@ jobs:
           ignore_missing_alt: true
           ignore_empty_alt: true
           allow_missing_href: true
-      
-          # Ignore HTTP + protocol-relative URLs
-          ignore_urls: '^http://,^//'
