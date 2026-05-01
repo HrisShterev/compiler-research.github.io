@@ -1,5 +1,7 @@
 name: Check broken links
 
+# Checking for broken links
+
 on:
   pull_request:
 
