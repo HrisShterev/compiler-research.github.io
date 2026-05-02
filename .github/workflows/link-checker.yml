@@ -32,8 +32,7 @@ jobs:
           check_scripts: false
           check_opengraph: false
           
-	  user_agent: "Mozilla/5.0"
-
+          user_agent: "Mozilla/5.0"
           # Redirects, bot blocks, timeouts, and common external failures
           ignore_status_codes: '301,302,403,429,403,500,502,503,504,999,0'
 
