@@ -46,9 +46,10 @@ jobs:
           enforce_https: false
 
           # Only check internal links — external sites are unreliable in CI
-          ignore_urls: '^http://,^https://,^//'
-          
           ignore_urls: |
+            ^http://
+            ^https://
+            ^//
             ^https://compiler-research.org/clad/#:~:text=
             ^https://compiler-research.org/stories/#:~:text=
             ^https://summerofcode.withgoogle.com/media/user/.*\.pdf$
