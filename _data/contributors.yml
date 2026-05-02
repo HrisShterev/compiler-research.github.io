@@ -457,7 +457,7 @@
         The goal of this project is to port existing C and C++ course materials to xeus-cpp notebooks, making them interactive and suitable for hands-on learning. 
         The project emphasizes understanding xeus-cpp’s execution model, documenting differences from standard compilation, 
         and producing teaching materials that help users explore C and C++ concepts in a notebook environment.
-      proposal: GeorgiRuntolev_proposal.pdf
+      proposal: assets/docs/GeorgiRuntolev_proposal.pdf
       mentors: Vassil Vassilev
 
   
@@ -723,7 +723,7 @@
         Some of STL’s concurrency primitives face the same problem -
         the methods in them should not be differentiated,
         and only the location of where they were called should be preserved.
-      proposal: /assets/docs/petro_mozil_promosal_GSoC_2025.pdf
+      proposal: /assets/docs/petro_mozil_proposal_GSoC_2025.pdf
       mentors: Martin Vassilev, David Lange
 
 

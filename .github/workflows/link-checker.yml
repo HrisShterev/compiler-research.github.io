@@ -47,3 +47,9 @@ jobs:
 
           # Only check internal links — external sites are unreliable in CI
           ignore_urls: '^http://,^https://,^//'
+          
+          ignore_urls: |
+            ^https://compiler-research.org/clad/#:~:text=
+            ^https://compiler-research.org/stories/#:~:text=
+            ^https://summerofcode.withgoogle.com/media/user/.*\.pdf$
+            ^https://content.sciendo.com/view/journals/cait/20/1/article-p53\.xml$
