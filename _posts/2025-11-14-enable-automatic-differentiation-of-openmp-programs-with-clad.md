@@ -55,7 +55,7 @@ Building on this, the project migrated these concepts to the Clad/Clang ecosyste
 - Use a specialized differentiator for OpenMP loops instead of reusing the logic for standard `for` loops.
 - Use Clang's native OpenMP construction interfaces to create new parallel regions and capture lists, allowing the generated derivative function to integrate naturally with the existing compiler pipeline.
 
-### 3.2. Forward-Mode Support ([#1491](github.com/vgvassilev/clad/pull/1491))
+### 3.2. Forward-Mode Support ([#1491](https://github.com/vgvassilev/clad/pull/1491))
 
 A key characteristic of forward-mode is that the derivative propagation's execution order is identical to the original program. Therefore, for forward-mode with OpenMP, there were two crucial observations:
 

@@ -34,7 +34,7 @@ To achieve this, the project will leverage existing, powerful technologies:
 1. **LLDB**: The [LLVM debugger](https://lldb.llvm.org/), which has excellent support for JIT-compiled code and Clang integration—perfect for how xeus-cpp executes code dynamically.
 2. **Debug Adapter Protocol (DAP)**: A [standardized protocol](https://microsoft.github.io/debug-adapter-protocol//) by Microsoft that allows debuggers to communicate with development tools. This ensures compatibility with Jupyter's frontend and follows the successful model of [xeus-python](https://github.com/jupyter-xeus/xeus-python).
 
-A key design principle is to run the debugger (specifically, [lldb-dap](https://lldb.llvm.org/resources/lldbdap.html), which acts as a DAP server for LLDB) as an external process. This is crucial for kernel stability, preventing the Jupyter kernel from freezing when a breakpoint is hit.
+A key design principle is to run the debugger (specifically, [lldb-dap](https://lldb.llvm.org/use/lldbdap.html), which acts as a DAP server for LLDB) as an external process. This is crucial for kernel stability, preventing the Jupyter kernel from freezing when a breakpoint is hit.
 
 ### Proposed Architecture Overview
 The proposed system involves a few key components working together:

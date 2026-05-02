@@ -64,5 +64,4 @@ Beyond the technical work, I picked up a lot of practical skills, from diving de
 - [List of my commits](https://github.com/vgvassilev/clad/commits?author=gojakuch)
 - [Clad Repository](https://github.com/vgvassilev/clad)
 - [Kokkos Framework](https://kokkos.org/)
-- [GSoC Project Proposal](https://summerofcode.withgoogle.com/media/user/7bacecfd1611/proposal/gAAAAABmU0YUILyYTMPRrcmjcv31gQbse1K2pvtrZjJbfFJ-BpANfpBikwSOTM52mNTLxKQeOP-rdhfyqu7KSO-pe74cM18zatTIu6VI4EJzPW8FgNbD8l4=.pdf)
 - [My GitHub Profile](https://github.com/gojakuch)

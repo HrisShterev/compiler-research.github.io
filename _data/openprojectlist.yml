@@ -636,7 +636,7 @@
     [CMSSW](https://github.com/cms-sw/cmssw/) is a collection of software for
     the CMS experiment. It is responsible for the collection and processing of
     information about the particle collisions at the detector. CMSSW uses
-    the [ROOT](root.cern/) framework to provide support for data storage and
+    the [ROOT](https://root.cern/) framework to provide support for data storage and
     processing. ROOT relies on Cling, Clang, LLVM for building automatically
     efficient I/O representation of the necessary C++ objects. The I/O
     properties of each object is described in a compileable C++ file called
@@ -2045,7 +2045,7 @@
     [CMSSW](https://github.com/cms-sw/cmssw/) is a collection of software for
     the CMS experiment. It is responsible for the collection and processing of
     information about the particle collisions at the detector. CMSSW uses
-    the [ROOT](root.cern/) framework to provide support for data storage and
+    the [ROOT](https://root.cern/) framework to provide support for data storage and
     processing. ROOT relies on Cling, Clang, LLVM for building automatically
     efficient I/O representation of the necessary C++ objects. The I/O
     properties of each object is described in a compileable C++ file called

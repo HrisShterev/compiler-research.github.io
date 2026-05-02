@@ -102,7 +102,7 @@ processes, offering a more efficient alternative to static binding methods.
 
 [Language Interoperability ↗]: https://cppinterop.readthedocs.io/en/latest/index.html
 
-[Cling]: https://rawgit.com/root-project/cling/master/www/index.html
+[Cling]: https://raw.githubusercontent.com/root-project/cling/master/www/index.html
 
 [Clang-REPL]: https://clang.llvm.org/docs/ClangRepl.html
 

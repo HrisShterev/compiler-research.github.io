@@ -179,7 +179,7 @@ We have quite a few [contributors](https://github.com/vgvassilev/clad/blob/maste
 If we missed you, please contact us!
 
 ##  How to Contribute
-Have a look at our [open positions](/vacancies) and [open projects](/open_projects) pages
+Have a look at our [open positions](/careers) and [open projects](/open_projects) pages
 
 
 ## How to install

@@ -19,13 +19,13 @@ edit-compile-run cycles during development.
 capability that enables interactivity, dynamic interoperability and rapid
 prototyping capabilities to C++ developers. Cling supports the full C++ feature
 set including the use of templates, lambdas, and virtual inheritance. Cling is
-an interactive C++ interpreter, built on top of the Clang and [LLVM](llvm.org)
+an interactive C++ interpreter, built on top of the Clang and [LLVM](https://llvm.org)
 compiler infrastructure. The interpreter enables interactive exploration and
 makes the C++ language more welcoming for research.
 
 The main tool for storage, research and visualization of scientific data in the
 field of high energy physics (HEP) is the specialized software package
-[ROOT](root.cern/). ROOT is a set of interconnected components that assist
+[ROOT](https://root.cern/). ROOT is a set of interconnected components that assist
 scientists from data storage and research to their visualization when published
 in a scientific paper. ROOT has played a significant role in scientific
 discoveries such as gravitational waves, the great cavity in the Pyramid of

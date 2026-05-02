@@ -378,27 +378,6 @@
     "contributions": 14
   },
   {
-    "login": "jalopezg-uc3m",
-    "id": 36541918,
-    "node_id": "MDQ6VXNlcjM2NTQxOTE4",
-    "avatar_url": "https://avatars2.githubusercontent.com/u/36541918?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/jalopezg-uc3m",
-    "html_url": "https://github.com/jalopezg-uc3m",
-    "followers_url": "https://api.github.com/users/jalopezg-uc3m/followers",
-    "following_url": "https://api.github.com/users/jalopezg-uc3m/following{/other_user}",
-    "gists_url": "https://api.github.com/users/jalopezg-uc3m/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/jalopezg-uc3m/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/jalopezg-uc3m/subscriptions",
-    "organizations_url": "https://api.github.com/users/jalopezg-uc3m/orgs",
-    "repos_url": "https://api.github.com/users/jalopezg-uc3m/repos",
-    "events_url": "https://api.github.com/users/jalopezg-uc3m/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/jalopezg-uc3m/received_events",
-    "type": "User",
-    "site_admin": false,
-    "contributions": 13
-  },
-  {
     "login": "gargvaibhav64",
     "id": 39873413,
     "node_id": "MDQ6VXNlcjM5ODczNDEz",

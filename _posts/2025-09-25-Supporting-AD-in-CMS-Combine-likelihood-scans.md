@@ -139,4 +139,4 @@ I am also grateful to the ROOT team for welcoming me and supporting me throughou
 - [CMS Combine GitHub page](https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/latest/)
 - [ROOT official repository](https://github.com/root-project/root)
 - [My GitHub profile](https://github.com/GalinBistrev2)
-- [Presentation](/assets/presentations/CaaS_Weekly_25_09_2025_Galin_Bistrev_AD_in_CMS_Combine.pdf)
+- [Presentation](/assets/presentations/CaaS_Weekly_25_09_2025_Galin_Bistrev_Supporting_AD_in_CMS_Combine.pdf)

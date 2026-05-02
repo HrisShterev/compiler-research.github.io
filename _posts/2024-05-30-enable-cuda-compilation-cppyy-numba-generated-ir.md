@@ -74,4 +74,3 @@ The impact of this project extends far beyond Cppyy itself, as it empowers the s
 - [Cppyy Repository](https://github.com/wlav/cppyy)
 - [Project Description](https://hepsoftwarefoundation.org/gsoc/2024/proposal_Cppyy-Numba-CUDA.html)
 - [GSoC Project Proposal](/assets/docs/Riya_Bisht_GSoC2024_Proposal.pdf)
-- [My GitHub Profile](https://github.com/chococandy63)

@@ -544,7 +544,7 @@ Bernhard Manfred Gruber (CERN, CASUS, TU Dresden),
 
 [3] SIP software home page, https://www.riverbankcomputing.com/ software/sip/intro (Visited Sep 2021)
 
-[4] Boost.Python Reference Manual (for software version 1.72), https: //[www.boost.org/doc/libs/1_65_1/libs/python/doc/html/reference/index.html](www.boost.org/doc/libs/1_65_1/libs/python/doc/html/reference/index.html), (Visited August 2021)
+[4] Boost.Python Reference Manual (for software version 1.72), https: //[https://www.boost.org/doc/libs/1_65_1/libs/python/doc/html/reference/index.html](https://www.boost.org/doc/libs/1_65_1/libs/python/doc/html/reference/index.html), (Visited August 2021)
 
 [5] Pybind11 project homepage, [http://pybind11.readthedocs.io/](http://pybind11.readthedocs.io/) (Visited August 2021).
 
